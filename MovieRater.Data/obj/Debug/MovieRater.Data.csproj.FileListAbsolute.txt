@@ -1,0 +1,2 @@
+C:\EFAProjects\Agile\MovieRater.Data\obj\Debug\MovieRater.Data.csproj.AssemblyReference.cache
+C:\EFAProjects\Agile\MovieRater.Data\obj\Debug\MovieRater.Data.csproj.CoreCompileInputs.cache
