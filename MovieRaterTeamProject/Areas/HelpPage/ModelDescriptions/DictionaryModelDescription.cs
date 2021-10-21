@@ -1,0 +1,6 @@
+namespace MovieRaterTeamProject.Areas.HelpPage.ModelDescriptions
+{
+    public class DictionaryModelDescription : KeyValuePairModelDescription
+    {
+    }
+}
