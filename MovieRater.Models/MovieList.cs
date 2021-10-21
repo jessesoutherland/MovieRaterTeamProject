@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MovieRater.Models
 {
-    public class Class1
+    class MovieList
     {
     }
 }
