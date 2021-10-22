@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace MovieRater.Models
 {
-    class MovieList
+    public class MovieList
     {
-        public int MovieID { get; set; }
         public string Title { get; set; }
+        public string MaturityRating { get; set; }
         public DateTime ReleaseDate { get; set; }
         public double Rating
         {
