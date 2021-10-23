@@ -23,25 +23,25 @@ namespace MovieRater.Models
         public string FamilyFriendly { get; set; }
         [Required]
         public string Educational { get; set; }
-        [Required, Range(0.0, 10.0)]
-        public double Rating
-        {
-            get
-            {
-                if (Ratings.Count == 0)
-                {
-                    return 0;
-                }
-                double ratingScore = 0;
+        //[Required, Range(0.0, 10.0)]
+        //public double Rating
+        //{
+        //    get
+        //    {
+        //        if (Ratings.Count == 0)
+        //        {
+        //            return 0;
+        //        }
+        //        double ratingScore = 0;
 
-                foreach (var rating in Ratings)
-                {
-                    ratingScore += rating.Score;
-                }
+        //        foreach (var rating in Ratings)
+        //        {
+        //            ratingScore += rating.Score;
+        //        }
 
-                return Math.Round(ratingScore / Ratings.Count, 1);
-            }
-        }
-        public virtual List<Rating> Ratings { get; set; } = new List<Rating>();
+        //        return Math.Round(ratingScore / Ratings.Count, 1);
+        //    }
+        //}
+        //public virtual List<Rating> Ratings { get; set; } = new List<Rating>();
     }
 }

@@ -11,24 +11,24 @@ namespace MovieRater.Models
         public string Title { get; set; }
         public string MaturityRating { get; set; }
         public DateTime ReleaseDate { get; set; }
-        public double Rating
-        {
-            get
-            {
-                if (Ratings.Count == 0)
-                {
-                    return 0;
-                }
-                double ratingScore = 0;
+        //public double Rating
+        //{
+        //    get
+        //    {
+        //        if (Ratings.Count == 0)
+        //        {
+        //            return 0;
+        //        }
+        //        double ratingScore = 0;
 
-                foreach (var rating in Ratings)
-                {
-                    ratingScore += rating.Score;
-                }
+        //        foreach (var rating in Ratings)
+        //        {
+        //            ratingScore += rating.Score;
+        //        }
 
-                return Math.Round(ratingScore / Ratings.Count, 1);
-            }
-        }
-        public virtual List<Rating> Ratings { get; set; } = new List<Rating>();
+        //        return Math.Round(ratingScore / Ratings.Count, 1);
+        //    }
+        //}
+        //public virtual List<Rating> Ratings { get; set; } = new List<Rating>();
     }
 }
