@@ -11,6 +11,7 @@ namespace MovieRater.Models
         public string Title { get; set; }
         public string MaturityRating { get; set; }
         public DateTime ReleaseDate { get; set; }
+        public string Genre { get; set; }
         //public double Rating
         //{
         //    get

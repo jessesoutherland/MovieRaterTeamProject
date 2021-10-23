@@ -71,26 +71,23 @@ namespace MovieRater.Services
                     };
             }
         }
-        public MovieDetail GetMovieByGenre(string genre)
+        public IEnumerable<MovieList> GetMovieByGenre(string genre)
         {
             using (var ctx = new ApplicationDbContext())
             {
-                var entity =
+                var query =
                     ctx
                         .Movies
-                        .Single(e => e.Genre == genre);
-                return
-                    new MovieDetail
+                        .Select(e =>
+                    new MovieList
                     {
-                        Title = entity.Title,
-                        Genre = entity.Genre,
-                        Description = entity.Description,
-                        ReleaseDate = entity.ReleaseDate,
-                        MaturityRating = entity.MaturityRating,
-                        Awards = entity.Awards,
-                        FamilyFriendly = entity.FamilyFriendly,
-                        Educational = entity.Educational,
-                    };
+                        Title = e.Title,
+                        Genre = e.Genre,
+                        ReleaseDate = e.ReleaseDate,
+                        MaturityRating = e.MaturityRating
+                    }
+                        ).Where(e => e.Genre == genre);
+                return query.ToArray();
             }
         }
         public bool UpdateMovie(MovieEdit model)
