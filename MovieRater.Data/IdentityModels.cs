@@ -32,6 +32,7 @@ namespace MovieRater.Data
         {
             return new ApplicationDbContext();
         }
+        public DbSet<Rating> Ratings { get; set; }
         public DbSet<Movie> Movies { get; set; }
         public DbSet<TvShow> TvShows { get; set; }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
@@ -61,5 +62,6 @@ namespace MovieRater.Data
         {
             HasKey(iur => iur.UserId);
         }
+
     }
 }
