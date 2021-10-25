@@ -80,6 +80,7 @@ namespace MovieRater.Services
         }
 
         //GetbyUserRating
+            //Stretch goal
 
 
         //Update
@@ -112,6 +113,9 @@ namespace MovieRater.Services
 
                 return ctx.SaveChanges() == 1;
             }
+
+
+
         }
 
     }
