@@ -1,5 +1,3 @@
-C:\EFAProjects\Agile\MovieRater.Data\obj\Debug\MovieRater.Data.csproj.AssemblyReference.cache
-C:\EFAProjects\Agile\MovieRater.Data\obj\Debug\MovieRater.Data.csproj.CoreCompileInputs.cache
 C:\EFAProjects\Agile\MovieRater.Data\bin\Debug\MovieRater.Data.dll.config
 C:\EFAProjects\Agile\MovieRater.Data\bin\Debug\MovieRater.Data.dll
 C:\EFAProjects\Agile\MovieRater.Data\bin\Debug\MovieRater.Data.pdb
@@ -30,6 +28,8 @@ C:\EFAProjects\Agile\MovieRater.Data\bin\Debug\Newtonsoft.Json.xml
 C:\EFAProjects\Agile\MovieRater.Data\bin\Debug\System.Net.Http.Formatting.xml
 C:\EFAProjects\Agile\MovieRater.Data\bin\Debug\System.Web.Http.xml
 C:\EFAProjects\Agile\MovieRater.Data\bin\Debug\System.Web.Http.Owin.xml
+C:\EFAProjects\Agile\MovieRater.Data\obj\Debug\MovieRater.Data.csproj.AssemblyReference.cache
+C:\EFAProjects\Agile\MovieRater.Data\obj\Debug\MovieRater.Data.csproj.CoreCompileInputs.cache
 C:\EFAProjects\Agile\MovieRater.Data\obj\Debug\MovieRater.Data.csproj.CopyComplete
 C:\EFAProjects\Agile\MovieRater.Data\obj\Debug\MovieRater.Data.dll
 C:\EFAProjects\Agile\MovieRater.Data\obj\Debug\MovieRater.Data.pdb

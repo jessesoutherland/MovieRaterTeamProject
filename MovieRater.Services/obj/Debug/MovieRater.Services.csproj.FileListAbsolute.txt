@@ -1,5 +1,3 @@
-C:\EFAProjects\Agile\MovieRater.Services\obj\Debug\MovieRater.Services.csproj.AssemblyReference.cache
-C:\EFAProjects\Agile\MovieRater.Services\obj\Debug\MovieRater.Services.csproj.CoreCompileInputs.cache
 C:\EFAProjects\Agile\MovieRater.Services\bin\Debug\MovieRater.Services.dll.config
 C:\EFAProjects\Agile\MovieRater.Services\bin\Debug\MovieRater.Services.dll
 C:\EFAProjects\Agile\MovieRater.Services\bin\Debug\MovieRater.Services.pdb
@@ -17,6 +15,8 @@ C:\EFAProjects\Agile\MovieRater.Services\bin\Debug\EntityFramework.xml
 C:\EFAProjects\Agile\MovieRater.Services\bin\Debug\EntityFramework.SqlServer.xml
 C:\EFAProjects\Agile\MovieRater.Services\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 C:\EFAProjects\Agile\MovieRater.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\EFAProjects\Agile\MovieRater.Services\obj\Debug\MovieRater.Services.csproj.AssemblyReference.cache
+C:\EFAProjects\Agile\MovieRater.Services\obj\Debug\MovieRater.Services.csproj.CoreCompileInputs.cache
 C:\EFAProjects\Agile\MovieRater.Services\obj\Debug\MovieRater.Services.csproj.CopyComplete
 C:\EFAProjects\Agile\MovieRater.Services\obj\Debug\MovieRater.Services.dll
 C:\EFAProjects\Agile\MovieRater.Services\obj\Debug\MovieRater.Services.pdb
