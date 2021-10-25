@@ -32,29 +32,34 @@ namespace MovieRater.Data
         {
             return new ApplicationDbContext();
         }
-
+        public DbSet<Movie> Movies { get; set; }
         public DbSet<TvShow> TvShows { get; set; }
-
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
+            modelBuilder
+                .Conventions
+                .Remove<PluralizingTableNameConvention>();
 
-            modelBuilder.Configurations.Add(new IdentityUserLoginConfiguration()).Add(new IdentityUserRoleConfiguration());
+            modelBuilder
+                .Configurations
+                .Add(new IdentityUserLoginConfiguration())
+                .Add(new IdentityUserRoleConfiguration());
         }
-        public class IdentityUserLoginConfiguration : EntityTypeConfiguration<IdentityUserLogin>
-        {
-            public IdentityUserLoginConfiguration()
-            {
-                HasKey(IdentityUserLogin => IdentityUserLogin.UserId);
-            }
-        }
+    }
 
-        public class IdentityUserRoleConfiguration : EntityTypeConfiguration<IdentityUserRole>
+    public class IdentityUserLoginConfiguration : EntityTypeConfiguration<IdentityUserLogin>
+    {
+        public IdentityUserLoginConfiguration()
         {
-            public IdentityUserRoleConfiguration()
-            {
-                HasKey(iur => iur.UserId);
-            }
+            HasKey(iul => iul.UserId);
+        }
+    }
+
+    public class IdentityUserRoleConfiguration : EntityTypeConfiguration<IdentityUserRole>
+    {
+        public IdentityUserRoleConfiguration()
+        {
+            HasKey(iur => iur.UserId);
         }
     }
 }
