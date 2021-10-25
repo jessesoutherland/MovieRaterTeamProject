@@ -20,13 +20,13 @@ namespace MovieRater.Data
 
         //Foreign Key for show
         [ForeignKey(nameof(TvShow))]
-        public int TvShowId { get; set; }
+        public int TvShowID { get; set; }
 
         public virtual TvShow TvShow { get; set; }
 
         //Foreign Key for movie
         [ForeignKey(nameof(Movie))]
-        public int MovieId { get; set; }
+        public int MovieID { get; set; }
 
         public virtual Movie Movie { get; set; }
 
