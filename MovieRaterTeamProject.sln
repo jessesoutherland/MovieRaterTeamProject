@@ -11,6 +11,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieRater.Models", "MovieR
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieRater.Services", "MovieRater.Services\MovieRater.Services.csproj", "{B30C0842-3C3F-498C-AE48-EC8C1BEC6AA5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieRater.Data", "MovieRater.Data\MovieRater.Data.csproj", "{D021792A-15D2-41DD-87E0-548BD114DD34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieRater.Models", "MovieRater.Models\MovieRater.Models.csproj", "{03939B87-20B7-4D5A-803F-8B1C323C0029}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieRater.Services", "MovieRater.Services\MovieRater.Services.csproj", "{B30C0842-3C3F-498C-AE48-EC8C1BEC6AA5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
