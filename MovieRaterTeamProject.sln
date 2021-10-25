@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieRaterTeamProject", "MovieRaterTeamProject\MovieRaterTeamProject.csproj", "{A8BFD076-7588-47EA-9B07-B3BEDF7721E5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieRater.WebAPI", "MovieRaterTeamProject\MovieRater.WebAPI.csproj", "{A8BFD076-7588-47EA-9B07-B3BEDF7721E5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieRater.Data", "MovieRater.Data\MovieRater.Data.csproj", "{D021792A-15D2-41DD-87E0-548BD114DD34}"
 EndProject

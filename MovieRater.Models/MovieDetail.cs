@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MovieRater.Data
+namespace MovieRater.Models
 {
-    public class Movie
+    public class MovieDetail
     {
         [Key]
         public int MovieID { get; set; }
