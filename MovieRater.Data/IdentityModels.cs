@@ -33,6 +33,7 @@ namespace MovieRater.Data
             return new ApplicationDbContext();
         }
         public DbSet<Movie> Movies { get; set; }
+        public DbSet<TvShow> TvShows { get; set; }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder
