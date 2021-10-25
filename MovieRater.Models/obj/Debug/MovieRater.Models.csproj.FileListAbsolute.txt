@@ -9,7 +9,6 @@ C:\EFAProjects\Agile\MovieRater.Models\bin\Debug\EntityFramework.xml
 C:\EFAProjects\Agile\MovieRater.Models\bin\Debug\EntityFramework.SqlServer.xml
 C:\EFAProjects\Agile\MovieRater.Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 C:\EFAProjects\Agile\MovieRater.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
-C:\EFAProjects\Agile\MovieRater.Models\obj\Debug\MovieRater.Models.csproj.AssemblyReference.cache
 C:\EFAProjects\Agile\MovieRater.Models\obj\Debug\MovieRater.Models.csproj.CoreCompileInputs.cache
 C:\EFAProjects\Agile\MovieRater.Models\obj\Debug\MovieRater.Models.csproj.CopyComplete
 C:\EFAProjects\Agile\MovieRater.Models\obj\Debug\MovieRater.Models.dll

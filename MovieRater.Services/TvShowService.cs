@@ -74,7 +74,7 @@ namespace MovieRater.Services
                     Title = tvtitle.Title,
                     Genre = tvtitle.Genre,
                     UserRating = tvtitle.UserRating,
-                    Maturity = tvtitle.Maturity
+                    Maturity = tvtitle.Maturity 
                 };
             }
         }
@@ -83,9 +83,36 @@ namespace MovieRater.Services
 
 
         //Update
+        public bool UpdateTvShow(TvShowEdit show)
+        {
+            using (var ctx = new ApplicationDbContext())
+            {
+                var tvtitle = ctx.TvShows.Single(l => l.Title == show.Title);
+
+                tvtitle.Title = show.Title;
+                tvtitle.Genre = show.Genre;
+                tvtitle.Description = show.Description;
+                tvtitle.UserRating = show.UserRating;
+                tvtitle.IsFamilyFriendly = show.IsFamilyFriendly;
+                tvtitle.IsEducational = show.IsEducational;
+
+                return ctx.SaveChanges() == 1;
+            }
+        }
 
 
         //Delete
+        public bool DeleteTvShow(string title)
+        {
+            using (var ctx = new ApplicationDbContext())
+            {
+                var tvtitle = ctx.TvShows.Single(l => l.Title == title);
+
+                ctx.TvShows.Remove(tvtitle);
+
+                return ctx.SaveChanges() == 1;
+            }
+        }
 
     }
 }
